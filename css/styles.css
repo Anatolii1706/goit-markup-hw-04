@@ -238,7 +238,7 @@ h1 {
   background-color: #fff;
   flex: 0 0 calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
-  box-sizing: border-box; /* важливо для падінгів */
+  box-sizing: border-box;
 }
 
 .team-members {
@@ -250,7 +250,7 @@ h1 {
 }
 
 .member-info {
-  padding: 32px 0; /* тільки вертикальний падінг */
+  padding: 32px 0;
   box-sizing: border-box;
 }
 
