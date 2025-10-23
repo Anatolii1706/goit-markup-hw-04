@@ -436,9 +436,21 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 264px; /* або auto — під розмір тексту */
+  width: 264px;
   height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+}
+
+.icon-team {
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 4px;
+  display: inline-flex;
+  fill: #4d5ae5;
+}
+
+.member-info .icon-team:hover {
+  fill: #31d0aa;
 }
