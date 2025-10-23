@@ -424,13 +424,21 @@ header .container {
   margin-bottom: 8px;
 }
 
-.icon {
-}
-
 .social-media {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px; /* або auto — під розмір тексту */
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
