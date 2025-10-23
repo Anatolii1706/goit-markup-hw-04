@@ -423,3 +423,14 @@ header .container {
 .app-title {
   margin-bottom: 8px;
 }
+
+.icon {
+}
+
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
