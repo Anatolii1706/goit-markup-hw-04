@@ -33,6 +33,35 @@ ol {
   color: #404bbf;
 }
 
+.page-nav .menu-list .link:first-child .index {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-nav .menu-list .link:first-child .index::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.page-contacts .contact-list li:first-child a {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-contacts a:hover,
+.page-contacts a:focus {
+  color: #404bbf;
+}
+
+.page-contacts .contact-list li:nth-child(2) a {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .page-address {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -387,7 +416,7 @@ header .container {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
