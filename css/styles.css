@@ -466,8 +466,8 @@ header .container {
 
 .social-media-team {
   display: flex;
-  justify-content: center;
   gap: 24px;
+  justify-content: center;
 }
 
 .instagram {
