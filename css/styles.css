@@ -420,6 +420,12 @@ header .container {
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
   border-radius: 0;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .app-title {
