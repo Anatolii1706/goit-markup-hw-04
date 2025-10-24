@@ -567,3 +567,9 @@ header .container {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
+.footer-icons {
+  display: flex;
+  flex-direction: column; /* щоб встикнути текст і список вертикально */
+  align-items: center; /* центр по горизонталі */
+}
