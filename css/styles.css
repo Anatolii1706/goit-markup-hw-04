@@ -77,6 +77,8 @@ ol {
 }
 
 .page-studio {
+  margin: 0 auto; /* вирівнює блок по центру */
+  text-align: center; /* щоб текст теж не тікав уліво */
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
