@@ -258,6 +258,15 @@ h1 {
   padding: 120px 0;
 }
 
+.our-team .social-media-team {
+  display: flex; /* робимо флекс-контейнер */
+  justify-content: center; /* центр по горизонталі */
+  gap: 16px; /* відстань між іконками */
+  padding: 0;
+  margin: 16px 0 0 0; /* відступ зверху, щоб не прилипали до тексту */
+  list-style: none; /* прибираємо маркери */
+}
+
 .team {
   font-size: 36px;
   line-height: 1.11;
@@ -266,11 +275,6 @@ h1 {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.our-team ul {
-  display: flex;
-  gap: 24px;
 }
 
 .parag {
@@ -566,10 +570,4 @@ header .container {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
-
-.footer-icons {
-  display: flex;
-  flex-direction: column; /* щоб встикнути текст і список вертикально */
-  align-items: center; /* центр по горизонталі */
 }
