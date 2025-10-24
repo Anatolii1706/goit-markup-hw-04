@@ -461,16 +461,13 @@ header .container {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
-.icon-team {
-  margin-top: 8px;
-  margin-left: 16px;
-  margin-right: 4px;
-  display: inline-flex;
-  fill: #4d5ae5;
+.social-media-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
-.member-info .icon-team:hover {
-  fill: #31d0aa;
-}
+.
