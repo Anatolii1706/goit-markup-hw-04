@@ -111,8 +111,8 @@ ol {
 }
 
 .page-studio {
-  margin: 0 auto; /* вирівнює блок по центру */
-  text-align: center; /* щоб текст теж не тікав уліво */
+  margin: 0 auto;
+  text-align: center;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -259,12 +259,12 @@ h1 {
 }
 
 .our-team .social-media-team {
-  display: flex; /* робимо флекс-контейнер */
-  justify-content: center; /* центр по горизонталі */
-  gap: 16px; /* відстань між іконками */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   padding: 0;
-  margin: 16px 0 0 0; /* відступ зверху, щоб не прилипали до тексту */
-  list-style: none; /* прибираємо маркери */
+  margin: 16px 0 0 0;
+  list-style: none;
 }
 
 .team {
@@ -523,7 +523,7 @@ header .container {
 
 .social-media-team {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   justify-content: center;
 }
 
