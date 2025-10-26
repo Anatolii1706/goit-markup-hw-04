@@ -510,7 +510,7 @@ header .container {
   letter-spacing: 0.02em;
 }
 
-.portfolio-image:hover .portfolio-paragraf {
+.portfolio-item:hover .portfolio-paragraf {
   transform: translateY(0%);
 }
 
